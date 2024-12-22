@@ -8,6 +8,8 @@ import RedStonerNomination from "./apps/RedStonerNomination.vue";
 import CreatorNomination from "./apps/CreatorNomination.vue";
 import EventNomination from "./apps/EventNomination.vue";
 import BuildingNomination from "./apps/BuildingNomination.vue";
+import VotedPage from "./apps/VotedPage.vue";
+import AlreadyVotedPage from "./apps/AlreadyVotedPage.vue";
 
 const routes = [
     {
@@ -41,6 +43,14 @@ const routes = [
     {
         path: "/building",
         component: BuildingNomination
+    },
+    {
+        path: "/voted",
+        component: VotedPage
+    },
+    {
+        path: "/alreadyvoted",
+        component: AlreadyVotedPage
     }
 ];
 
