@@ -40,7 +40,7 @@ async function Vote(numberOfPlayer){
                     console.error("Error fetching IP address:", error);
                 });
     const data = {
-        "player-id": numberOfPlayer,
+        "id": numberOfPlayer,
         "nomination": nomination,
         "elector-ip": electorIp
     }
